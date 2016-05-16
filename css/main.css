@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+
+* { margin: 0; padding: 0; }
+
+/*---------- GLOBAL ----------*/
+.page-wrapper {
+	background-color: #e5e5e5;
+}
+.page-content {
+	width: 100%;
+	padding-top: 150px;
+	height: 1200px;
+}
+
+h1, h2 { color: #999; font-family: 'Open Sans', sans-serif; }
+h3, h4, p { color: #999; font-family: 'Open Sans', sans-serif; }
+
+.text-center { text-align: center; }
+
+/*---------- NAVIGATION ----------*/
+.fixed-nav {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	height: 100px;
+	background-color: #009ca6;
+	width: 100%;
+	box-shadow: 1px 1px 6px #005f6c;
+}
+.logo {
+	float: left;
+	margin-top: 25px;
+	margin-left: 2.5%;
+}
+.logo:hover { opacity: .8; }
+nav {
+	float: right;
+	margin-top: 15px;
+	margin-right: 15%;
+}
+nav ul {
+	margin-top: 5px;
+}
+nav li {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	margin-top: 15px;
+}
+nav a {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.1em;
+}
+nav a:hover {
+	font-weight: 800;
+}
+
+footer {
+	height: 150px;
+	background-color: #005f6c;
+}
+.w-33 {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	margin-top: 60px;
+}
+.w-33 a {
+	color: #80afb6;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.w-33 a:hover {
+	color: #fff;
+}
+.w-33 h2 {
+	position: relative;
+	top: -13px;
+	color: #fff;
+	font-weight: 800;
+	font-size: 2em;
+}
